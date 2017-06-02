@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LPO_SP_APP", "LPO_SP_APP\LPO_SP_APP.csproj", "{AEC51D68-3F80-49A2-9612-B135ECE589FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEC51D68-3F80-49A2-9612-B135ECE589FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC51D68-3F80-49A2-9612-B135ECE589FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC51D68-3F80-49A2-9612-B135ECE589FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AEC51D68-3F80-49A2-9612-B135ECE589FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC51D68-3F80-49A2-9612-B135ECE589FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC51D68-3F80-49A2-9612-B135ECE589FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

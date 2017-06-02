@@ -1,0 +1,222 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="LPO_Phone.DisplayForm"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="PortraitOrLandscape" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" x:Name = "ViewPage">
+
+    <!-- To enable Design time data binding, uncomment the code below -->
+    <!--<d:DesignProperties.DataContext xmlns:local="clr-namespace:LPO_Phone">
+        <local:DesignDisplayItemViewModel/>
+    </d:DesignProperties.DataContext>-->
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+<Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <ProgressBar Grid.Row="0" Background="Red" x:Name="progressBar" Opacity="1" HorizontalAlignment="Center" VerticalAlignment="Top" Height="Auto" Width="470" IsIndeterminate="{Binding IsBusy}" Visibility="{Binding ShowIfBusy}" />
+        <phone:Pivot Title="{Binding [Title]}">
+            <phone:PivotItem Header="Lead">
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <Grid Width="Auto" Height="Auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        <!--Title-->
+            <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Title:</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Name="txtTitle" Text="{Binding [Title]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--ContactCp-->
+            <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Contact:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Name="txtContactCp" Text="{Binding [ContactCp]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--CustomerCp-->
+            <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Customer:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" Name="txtCustomerCp" Text="{Binding [CustomerCp]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--Activity-->
+            <TextBlock Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Activity:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="1" Name="txtActivity" Text="{Binding [Activity]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--EstimatedOrderVolume-->
+            <TextBlock Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Estimated Order Volume:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="1" Name="txtEstimatedOrderVolume" Text="{Binding [EstimatedOrderVolume]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--Deadline-->
+            <TextBlock Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Deadline:</TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="1" Name="txtDeadline" Text="{Binding [Deadline]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--EstProjectStart-->
+            <TextBlock Grid.Row="6" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Estimated Project Start:</TextBlock>
+            <TextBlock Grid.Row="6" Grid.Column="1" Name="txtEstProjectStart" Text="{Binding [EstProjectStart]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--EstProjectEnd-->
+            <TextBlock Grid.Row="7" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Estimated Project End:</TextBlock>
+            <TextBlock Grid.Row="7" Grid.Column="1" Name="txtEstProjectEnd" Text="{Binding [EstProjectEnd]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--Language1-->
+            <TextBlock Grid.Row="8" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Language:</TextBlock>
+            <TextBlock Grid.Row="8" Grid.Column="1" Name="txtLanguage1" Text="{Binding [Language1]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--Requirements-->
+            <TextBlock Grid.Row="9" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Requirements:</TextBlock>
+            <TextBlock Grid.Row="9" Grid.Column="1" Name="txtRequirements" Text="{Binding [Requirements]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--LPOStatus-->
+            <TextBlock Grid.Row="10" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Status:</TextBlock>
+            <TextBlock Grid.Row="10" Grid.Column="1" Name="txtLPOStatus" Text="{Binding [LPOStatus]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+
+                    </Grid>
+                </ScrollViewer>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Responsibility">
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <Grid Width="Auto" Height="Auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        <!--ProposalManager-->
+            <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Proposal Manager:</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Name="txtProposalManager" Text="{Binding [ProposalManager]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--CMcp-->
+            <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">CMcp:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Name="txtCMcp" Text="{Binding [CMcp]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--CommercialManagerDeputy-->
+            <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Commercial Manager Deputy:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" Name="txtCommercialManagerDeputy" Text="{Binding [CommercialManagerDeputy]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+                    </Grid>
+                </ScrollViewer>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Proposal">
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <Grid Width="Auto" Height="Auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        <!--RiskClassification-->
+            <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Risk Classification:</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Name="txtRiskClassification" Text="{Binding [RiskClassification]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--NonDisclosure-->
+            <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Non Disclosure:</TextBlock>
+            <CheckBox Grid.Row="1" Grid.Column="1" Name="txtNonDisclosure" FontSize="{StaticResource PhoneFontSizeNormal}" IsEnabled="False" IsChecked="{Binding [NonDisclosure]}" />
+            <!--ProductionCostInternal-->
+            <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Internal Production Cost:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" Name="txtProductionCostInternal" Text="{Binding [ProductionCostInternal]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--ProductionCostExternal-->
+            <TextBlock Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">External Production Cost:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="1" Name="txtProductionCostExternal" Text="{Binding [ProductionCostExternal]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--Material-->
+            <TextBlock Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Material Cost:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="1" Name="txtMaterial" Text="{Binding [Material]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--TotalCost-->
+            <TextBlock Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Total Cost:</TextBlock>
+            <TextBlock Grid.Row="5" Grid.Column="1" Name="txtTotalCost" Text="{Binding [TotalCost]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--Price-->
+            <TextBlock Grid.Row="6" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Price:</TextBlock>
+            <TextBlock Grid.Row="6" Grid.Column="1" Name="txtPrice" Text="{Binding [Price]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--MargePercentage-->
+            <TextBlock Grid.Row="7" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Margin Percentage:</TextBlock>
+            <TextBlock Grid.Row="7" Grid.Column="1" Name="txtMargePercentage" Text="{Binding [MargePercentage]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+                    </Grid>
+                </ScrollViewer>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Mailing">
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <Grid Width="Auto" Height="Auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        <!--AcknowledgePolicy-->
+            <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Acknowledge Policy:</TextBlock>
+            <CheckBox Grid.Row="0" Grid.Column="1" Name="txtAcknowledgePolicy" FontSize="{StaticResource PhoneFontSizeNormal}" IsEnabled="False" IsChecked="{Binding [AcknowledgePolicy]}" />
+            <!--EMail-->
+            <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">E-Mail:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Name="txtEMail" Text="{Binding [EMail]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--Attachments-->
+            <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Attachment:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" Name="txtAttachments" Text="{Binding [Attachments]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--TransmissionDate-->
+            <TextBlock Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Mailing Date:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="1" Name="txtTransmissionDate" Text="{Binding [TransmissionDate]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--TransmissionUser-->
+            <TextBlock Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Mailing User:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="1" Name="txtTransmissionUser" Text="{Binding [TransmissionUser]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+                    </Grid>
+                </ScrollViewer>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Order">
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <Grid Width="Auto" Height="Auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="2*" />
+                        </Grid.ColumnDefinitions>
+                        <!--OrderCoordinator-->
+            <TextBlock Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Order Coordinator:</TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="1" Name="txtOrderCoordinator" Text="{Binding [OrderCoordinator]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--NoteToOrderManagement-->
+            <TextBlock Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Note To Order Management:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" Name="txtNoteToOrderManagement" Text="{Binding [NoteToOrderManagement]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+            <!--_UIVersionString-->
+            <TextBlock Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Style="{StaticResource PhoneTextNormalStyle}">Version:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="1" Name="txt_UIVersionString" Text="{Binding [_UIVersionString]}" TextWrapping="Wrap" Style="{StaticResource PhoneTextSubtleStyle}" />
+                    </Grid>
+                </ScrollViewer>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="btnEdit" IconUri="/Assets/appbar.edit.rest.png" Text="Edit" Click="OnEditButtonClick"/>
+            <shell:ApplicationBarIconButton x:Name="btnBack" IconUri="/Assets/appbar.cancel.rest.png" Text="Cancel" Click="OnCancelButtonClick"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+    
+
+</phone:PhoneApplicationPage>

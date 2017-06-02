@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="LPOList" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/LPOList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+      
+    <ContentType ID="0x010018e5056d8c3f4f82850a48520e3e87e1" Name="ListFieldsContentType">
+        
+<FieldRefs>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{ac264eeb-30d6-4c64-8375-2efcca1d4c7f}" Name="Contact" /><FieldRef ID="{57b6759c-89b9-46ca-b8f7-9b9f3ef9726b}" Name="Customer" /><FieldRef ID="{6e1ba066-108a-4524-b1c3-5645b27e5d1b}" Name="Activity" /><FieldRef ID="{bbbf31d9-b444-4e5b-b5ec-92ada8918247}" Name="EstimatedOrderVolume" /><FieldRef ID="{9c5cae4c-25d1-4563-8c5f-2f8ecf6281b1}" Name="Deadline" /><FieldRef ID="{09e7f9fd-4822-4d85-89b2-88cfc3f816a5}" Name="EstProjectStart" /><FieldRef ID="{98b83323-1f13-49fb-ae57-54d6201b045b}" Name="EstProjectEnd" /><FieldRef ID="{89a03163-7b3a-4c9f-9ea7-c65121ef20a7}" Name="Language1" />
+
+  <FieldRef ID="{130c822b-03d0-4307-b06d-84a3e4f40705}" Name="Requirements" />
+
+  <FieldRef ID="{4d8dab3c-88ee-4ba3-badc-67d833391c05}" Name="LPOStatus" />
+  <FieldRef ID="{92a8adf2-efe3-4e9b-86f5-bef51edf86af}" Name="ProposalManager" /><FieldRef ID="{4d698493-1d94-4b5c-893f-80a4ff124cde}" Name="CommercialManager" /><FieldRef ID="{31b9c064-f8ca-410a-a544-3d58762b0b41}" Name="CommercialManagerDeputy" /><FieldRef ID="{780b34aa-65dc-445b-b266-1a07021189ac}" Name="RiskClassification" /><FieldRef ID="{4bc98374-fc85-449e-8325-30992ade2de6}" Name="NonDisclosure" /><FieldRef ID="{77bce659-2aa0-44a8-9b25-353ad89d364a}" Name="ProductionCostInternal" /><FieldRef ID="{e26c9d83-3a8f-48ec-b4a0-bb7d28aaccef}" Name="ProductionCostExternal" /><FieldRef ID="{580e1abe-4603-4a55-ba0b-e99bd1a17cd0}" Name="Material" /><FieldRef ID="{3be7a311-30b9-4804-b85b-16896bf451e0}" Name="TotalCost" /><FieldRef ID="{ddff4d2a-14e8-4cad-beeb-63504971752f}" Name="Price" /><FieldRef ID="{4d3245f0-dff3-49c3-96b8-7fd754abe4f5}" Name="MargePercentage" /><FieldRef ID="{b9341a50-d8d9-4fe7-9fe7-0969060efd16}" Name="AcknowledgePolicy" /><FieldRef ID="{fc2e188e-ba91-48c9-9dd3-16431afddd50}" Name="WorkAddress" /><FieldRef ID="{6ca7bd7f-b490-402e-af1b-2813cf087b1e}" Name="WorkCity" /><FieldRef ID="{ceac61d3-dda9-468b-b276-f4a6bb93f14f}" Name="WorkState" />
+  <FieldRef ID="{9a631556-3dac-49db-8d2f-fb033b0fdc24}" Name="WorkZip" />
+  <FieldRef ID="{3f3a5c85-9d5a-4663-b925-8b68a678ea3a}" Name="WorkCountry" />
+  <FieldRef ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="EMail" />
+  <FieldRef ID="{dbbe8477-9b0a-46ab-b430-fdd68b92154c}" Name="TransmissionDate" /><FieldRef ID="{4dd6265b-9f8e-44a0-b731-be79da775823}" Name="TransmissionUser" /><FieldRef ID="{b6120a6f-56e8-4d4e-979d-07b5eda65965}" Name="OrderCoordinator" /><FieldRef ID="{ff9f1b91-c771-4ebc-98ee-8a52405b2c2d}" Name="NoteToOrderManagement" /><FieldRef ID="{4ce470da-999f-4502-963c-4a75b2e896ed}" Name="ContactCp" /><FieldRef ID="{71f1ab9a-dffc-4fdc-9d93-e691b38e7a32}" Name="CustomerCp" /><FieldRef ID="{624d1d0a-5d1a-46f5-8656-6683f45f74ae}" Name="CMcp" /><FieldRef ID="{02fceb2b-744b-4dbe-b22d-c1500d3c092c}" Name="CustomerLogo" /><FieldRef ID="{7b1b0486-a0f9-4261-bd59-34da54682e98}" Name="ContactImage" />
+  </FieldRefs>
+      </ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    
+<Fields>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+
+  
+  
+  
+
+
+
+  
+
+
+  
+  
+  
+
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  <Field Name="LPOStatus" ID="{4d8dab3c-88ee-4ba3-badc-67d833391c05}" DisplayName="Status" Type="Text">
+    <CHOICES>
+
+
+
+      
+      
+      
+    <CHOICE>Lead</CHOICE><CHOICE>Proposal</CHOICE><CHOICE>Order</CHOICE></CHOICES>
+
+  </Field><Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Proposal Title" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Contact" ID="{ac264eeb-30d6-4c64-8375-2efcca1d4c7f}" DisplayName="Contact" Type="Lookup" List="Lists/Contacts" ShowField="FullName" Required="FALSE" /><Field Name="Customer" ID="{57b6759c-89b9-46ca-b8f7-9b9f3ef9726b}" DisplayName="Customer" Type="Lookup" List="Lists/Customers" ShowField="Title" /><Field Name="Activity" ID="{6e1ba066-108a-4524-b1c3-5645b27e5d1b}" DisplayName="Activity" Type="Choice" Format="Dropdown" Required="FALSE">
+    <CHOICES>
+
+
+
+
+      
+      
+      
+      
+    <CHOICE>Consulting</CHOICE><CHOICE>Development</CHOICE><CHOICE>Project Management</CHOICE><CHOICE>Training</CHOICE></CHOICES>
+
+  </Field><Field Name="EstimatedOrderVolume" ID="{bbbf31d9-b444-4e5b-b5ec-92ada8918247}" DisplayName="Estimated Order Volume" Type="Currency" LCID="1031" Min="0" Required="FALSE" /><Field Name="Deadline" ID="{9c5cae4c-25d1-4563-8c5f-2f8ecf6281b1}" DisplayName="Deadline" Type="DateTime" Format="DateOnly" /><Field Name="EstProjectStart" ID="{09e7f9fd-4822-4d85-89b2-88cfc3f816a5}" DisplayName="Estimated Project Start" Type="DateTime" Format="DateOnly" /><Field Name="EstProjectEnd" ID="{98b83323-1f13-49fb-ae57-54d6201b045b}" DisplayName="Estimated Project End" Type="DateTime" Format="DateOnly" /><Field Name="Language1" ID="{89a03163-7b3a-4c9f-9ea7-c65121ef20a7}" DisplayName="Language" Type="Choice" Format="Dropdown">
+        <CHOICES>
+          
+          
+          
+          
+          
+          
+          
+        <CHOICE>English</CHOICE><CHOICE>Espanol</CHOICE><CHOICE>France</CHOICE><CHOICE>German</CHOICE><CHOICE>Italian</CHOICE><CHOICE>Polish</CHOICE><CHOICE>Russian</CHOICE><CHOICE>Swedish</CHOICE></CHOICES>
+      
+</Field>
+  <Field Name="Requirements" ID="{130c822b-03d0-4307-b06d-84a3e4f40705}" DisplayName="Requirements" Type="Note" NumLines="3" Required="FALSE" /><Field Name="ProposalManager" ID="{92a8adf2-efe3-4e9b-86f5-bef51edf86af}" DisplayName="Proposal Manager" Type="User" UserSelectionMode="PeopleOnly" List="Lists/Profiles" ShowField="User" /><Field Name="CommercialManager" ID="{4d698493-1d94-4b5c-893f-80a4ff124cde}" DisplayName="Commercial Manager" Type="Lookup" UserSelectionMode="PeopleOnly" List="Lists/Profiles" ShowField="Title" /><Field Name="CommercialManagerDeputy" ID="{31b9c064-f8ca-410a-a544-3d58762b0b41}" DisplayName="Commercial Manager Deputy" Type="Text" UserSelectionMode="PeopleOnly" /><Field Name="RiskClassification" ID="{780b34aa-65dc-445b-b266-1a07021189ac}" DisplayName="Risk Classification" Type="Choice" Format="Dropdown">
+    <CHOICES>
+
+
+
+
+      
+      
+      
+      
+    <CHOICE>No Risk</CHOICE><CHOICE>Low</CHOICE><CHOICE>Medium</CHOICE><CHOICE>High</CHOICE></CHOICES>
+
+  </Field><Field Name="NonDisclosure" ID="{4bc98374-fc85-449e-8325-30992ade2de6}" DisplayName="Non Disclosure" Type="Boolean" Format="RadioButtons">
+    <CHOICES>
+
+
+      
+      
+    <CHOICE>Internal</CHOICE><CHOICE>Non Disclosure</CHOICE></CHOICES>
+
+  </Field><Field Name="ProductionCostInternal" ID="{77bce659-2aa0-44a8-9b25-353ad89d364a}" DisplayName="Internal Production Cost" Type="Currency" LCID="1031" Min="0" Decimals="2" /><Field Name="ProductionCostExternal" ID="{e26c9d83-3a8f-48ec-b4a0-bb7d28aaccef}" DisplayName="External Production Cost" Type="Currency" LCID="1031" Min="0" Decimals="2" /><Field Name="Material" ID="{580e1abe-4603-4a55-ba0b-e99bd1a17cd0}" DisplayName="Material Cost" Type="Currency" LCID="1031" Min="0" Decimals="2" /><Field Name="TotalCost" ID="{3be7a311-30b9-4804-b85b-16896bf451e0}" DisplayName="Total Cost" Type="Currency" LCID="1031" Decimals="2" /><Field Name="Price" ID="{ddff4d2a-14e8-4cad-beeb-63504971752f}" DisplayName="Price" Type="Currency" LCID="1031" Min="0" Decimals="2" /><Field Name="MargePercentage" ID="{4d3245f0-dff3-49c3-96b8-7fd754abe4f5}" DisplayName="Margin Percentage" Type="Number" Percentage="TRUE" /><Field Name="AcknowledgePolicy" ID="{b9341a50-d8d9-4fe7-9fe7-0969060efd16}" DisplayName="Acknowledge Policy" Type="Boolean" /><Field ID="{fc2e188e-ba91-48c9-9dd3-16431afddd50}" Name="WorkAddress" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkAddress" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,Address;" Type="Note" NumLines="2" Sortable="FALSE" /><Field ID="{6ca7bd7f-b490-402e-af1b-2813cf087b1e}" Name="WorkCity" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkCity" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,City;" Type="Text" />
+  <Field ID="{ceac61d3-dda9-468b-b276-f4a6bb93f14f}" Name="WorkState" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkState" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,State_Province;" Type="Text" NumLines="2" Sortable="TRUE" />
+  
+  <Field ID="{9a631556-3dac-49db-8d2f-fb033b0fdc24}" Name="WorkZip" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkZip" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,ZIP_Postal_Code;" Type="Text" IMEMode="inactive" />
+  <Field ID="{3f3a5c85-9d5a-4663-b925-8b68a678ea3a}" Name="WorkCountry" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkCountry" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,Country_Region;" Type="Text" />
+  <Field ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="EMail" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="EMail" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,E-Mail;" ReadOnly="FALSE" Type="Text" FromBaseType="TRUE" AllowDeletion="TRUE" />
+
+
+
+  <Field Name="TransmissionDate" ID="{dbbe8477-9b0a-46ab-b430-fdd68b92154c}" DisplayName="Mailing Date" Type="Text" Format="DateTime" /><Field Name="TransmissionUser" ID="{4dd6265b-9f8e-44a0-b731-be79da775823}" DisplayName="Mailing User" Type="Text" UserSelectionMode="PeopleOnly" /><Field Name="OrderCoordinator" ID="{b6120a6f-56e8-4d4e-979d-07b5eda65965}" DisplayName="Order Coordinator" Type="User" UserSelectionMode="PeopleOnly" /><Field Name="NoteToOrderManagement" ID="{ff9f1b91-c771-4ebc-98ee-8a52405b2c2d}" DisplayName="Note To Order Management" Type="Note" NumLines="3" RichText="FALSE" /><Field Name="ContactCp" ID="{4ce470da-999f-4502-963c-4a75b2e896ed}" DisplayName="ContactCp" Type="Text" /><Field Name="CustomerCp" ID="{71f1ab9a-dffc-4fdc-9d93-e691b38e7a32}" DisplayName="CustomerCp" Type="Text" /><Field Name="CMcp" ID="{624d1d0a-5d1a-46f5-8656-6683f45f74ae}" DisplayName="CMcp" Type="Text" /><Field Name="CustomerLogo" ID="{02fceb2b-744b-4dbe-b22d-c1500d3c092c}" DisplayName="CustomerLogo" Type="Text" /><Field Name="ContactImage" ID="{7b1b0486-a0f9-4261-bd59-34da54682e98}" DisplayName="ContactImage" Type="Text" />
+
+</Fields>
+    <Views>
+      
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        
+<FieldRef Name="LinkTitleNoMenu">
+</FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          
+<FieldRef Name="Modified" Ascending="FALSE">
+</FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">15</RowLimit>
+        <ViewFields>
+          
+          
+          
+          
+          
+          
+        
+
+
+
+
+
+
+<FieldRef Name="Title" /><FieldRef Name="Customer" /><FieldRef Name="Contact" /><FieldRef Name="LPOStatus" /><FieldRef Name="EstimatedOrderVolume" /><FieldRef Name="Modified" /><FieldRef Name="TotalCost" /><FieldRef Name="ContactCp" /><FieldRef Name="CustomerCp" /><FieldRef Name="CMcp" /><FieldRef Name="CustomerLogo" /><FieldRef Name="ContactImage" /><FieldRef Name="EMail" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          
+<FieldRef Name="ID">
+</FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View><View BaseViewID="2" Name="e240303f-954a-4cee-88f0-15b5fc275599" DisplayName="Last Edited" Type="HTML" WebPartZoneID="Main" SetupPath="pages\viewpage.aspx" Url="Last Edited.aspx">
+        <ViewFields>
+          
+          
+          
+          
+          
+          
+        
+
+
+
+
+
+<FieldRef Name="Title" /><FieldRef Name="Customer" /><FieldRef Name="Contact" /><FieldRef Name="LPOStatus" /><FieldRef Name="EstimatedOrderVolume" /><FieldRef Name="Modified" /></ViewFields>
+        <Query />
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit>5</RowLimit>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="LPOEdit.aspx" Path="LPOEdit.aspx" WebPartZoneID="Main" UseLegacyForm="FALSE" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

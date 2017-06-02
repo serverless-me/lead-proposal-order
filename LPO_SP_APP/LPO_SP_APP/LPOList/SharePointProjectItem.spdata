@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.ListDefinition" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="LPOList\" Type="ElementManifest" />
+    <ProjectItemFile Source="Schema.xml" Target="LPOList\" Type="ElementFile" />
+    <ProjectItemFile Source="LPOEdit.aspx" Target="LPOList\" Type="ElementFile" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="Microsoft.VisualStudio.SharePoint.ListSettings.ListFieldsContentTypeID" Value="0x010018e5056d8c3f4f82850a48520e3e87e1" />
+  </ExtensionData>
+</ProjectItem>

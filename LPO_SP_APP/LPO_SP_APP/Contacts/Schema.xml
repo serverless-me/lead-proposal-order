@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Contacts" Direction="0" FolderCreation="FALSE" Url="Lists/Contacts" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01005a048cea79d54ce5a86db429a6977503" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" /><FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" /><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" /><FieldRef ID="{475c2610-c157-4b91-9e2d-6855031b3538}" Name="FullName" /><FieldRef ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="Email" /><FieldRef ID="{c4e0f350-52cc-4ede-904c-dd71a3d11f7d}" Name="JobTitle" /><FieldRef ID="{fd630629-c165-4513-b43c-fdb16b86a14d}" Name="WorkPhone" /><FieldRef ID="{2ab923eb-9880-4b47-9965-ebf93ae15487}" Name="HomePhone" /><FieldRef ID="{2a464df1-44c1-4851-949d-fcd270f0ccf2}" Name="CellPhone" /><FieldRef ID="{9d1cacc8-f452-4bc1-a751-050595ad96e1}" Name="WorkFax" /><FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Name="Comments" /><FieldRef ID="{c99d1151-ed9e-4ded-abfd-afaa1d2c10a5}" Name="LPOCompany" /><FieldRef ID="{D81529E8-384C-4ca6-9C43-C86A256E6A44}" Name="Language" /><FieldRef ID="{7e24fdb6-8613-48f8-aec7-b76c6b1dd54d}" Name="ContactImage" /></FieldRefs></ContentType><ContentTypeRef ID="0x0106">
+        <Folder TargetName="Contact" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <Field Name="LinkTitle" ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" DisplayName="$Resources:core,Last_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitle" Type="Computed" /><Field Name="LinkTitleNoMenu" ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" DisplayName="$Resources:core,Last_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitleNoMenu" Type="Computed" /><Field Name="Title" ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" DisplayName="$Resources:core,Last_Name;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" Type="Text" /><Field ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" DisplayName="$Resources:core,First_Name;" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FirstName" /><Field ID="{475c2610-c157-4b91-9e2d-6855031b3538}" Name="FullName" DisplayName="$Resources:core,Full_Name;" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FullName" Required="TRUE" /><Field ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="Email" DisplayName="$Resources:core,E-mail_Address15;" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Email" Required="TRUE" /><Field ID="{c4e0f350-52cc-4ede-904c-dd71a3d11f7d}" Name="JobTitle" DisplayName="$Resources:core,Job_Title;" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="JobTitle" /><Field ID="{fd630629-c165-4513-b43c-fdb16b86a14d}" Name="WorkPhone" DisplayName="$Resources:core,Business_Phone;" IMEMode="inactive" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkPhone" /><Field ID="{2ab923eb-9880-4b47-9965-ebf93ae15487}" Name="HomePhone" DisplayName="$Resources:core,Home_Phone;" IMEMode="inactive" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="HomePhone" /><Field ID="{2a464df1-44c1-4851-949d-fcd270f0ccf2}" Name="CellPhone" DisplayName="$Resources:core,Mobile_Phone;" IMEMode="inactive" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="CellPhone" /><Field ID="{9d1cacc8-f452-4bc1-a751-050595ad96e1}" Name="WorkFax" DisplayName="$Resources:core,Fax_Number;" IMEMode="inactive" Type="Text" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkFax" /><Field ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Name="Comments" DisplayName="$Resources:core,Notes;" RichText="TRUE" Type="Note" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Comments" /><Field Name="LPOCompany" ID="{c99d1151-ed9e-4ded-abfd-afaa1d2c10a5}" DisplayName="LPOCompany" Type="Lookup" List="Lists/Customers" ShowField="Title" Required="TRUE" /><Field ID="{D81529E8-384C-4ca6-9C43-C86A256E6A44}" Name="Language" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Language" Group="$Resources:core,Base_Columns;" Type="Choice" DisplayName="$Resources:core,LanguageName;" FillInChoice="TRUE" Required="TRUE"><CHOICES><CHOICE>$Resources:core,Lang_Arabic_SaudiArabia;</CHOICE><CHOICE>$Resources:core,Lang_Bulgarian_Bulgaria;</CHOICE><CHOICE>$Resources:core,Lang_Chinese_HongKong;</CHOICE><CHOICE>$Resources:core,Lang_Chinese_PRC;</CHOICE><CHOICE>$Resources:core,Lang_Chinese_Taiwan;</CHOICE><CHOICE>$Resources:core,Lang_Croatian_Croatia;</CHOICE><CHOICE>$Resources:core,Lang_Czech_CzechRepublic;</CHOICE><CHOICE>$Resources:core,Lang_Danish_Denmark;</CHOICE><CHOICE>$Resources:core,Lang_Dutch_Netherlands;</CHOICE><CHOICE>$Resources:core,Lang_English;</CHOICE><CHOICE>$Resources:core,Lang_Estonian_Estonia;</CHOICE><CHOICE>$Resources:core,Lang_Finnish_Finland;</CHOICE><CHOICE>$Resources:core,Lang_French_France;</CHOICE><CHOICE>$Resources:core,Lang_German_Germany;</CHOICE><CHOICE>$Resources:core,Lang_Greek_Greece;</CHOICE><CHOICE>$Resources:core,Lang_Hebrew_Israel;</CHOICE><CHOICE>$Resources:core,Lang_Hindi_India;</CHOICE><CHOICE>$Resources:core,Lang_Hungarian_Hungary;</CHOICE><CHOICE>$Resources:core,Lang_Indonesian_Indonesia;</CHOICE><CHOICE>$Resources:core,Lang_Italian_Italy;</CHOICE><CHOICE>$Resources:core,Lang_Japanese_Japan;</CHOICE><CHOICE>$Resources:core,Lang_Korean_Korea;</CHOICE><CHOICE>$Resources:core,Lang_Latvian_Latvia;</CHOICE><CHOICE>$Resources:core,Lang_Lithuanian_Lithuania;</CHOICE><CHOICE>$Resources:core,Lang_Malay_Malaysia;</CHOICE><CHOICE>$Resources:core,Lang_Norwegian_BokmalNorway;</CHOICE><CHOICE>$Resources:core,Lang_Polish_Poland;</CHOICE><CHOICE>$Resources:core,Lang_Portuguese_Brazil;</CHOICE><CHOICE>$Resources:core,Lang_Portuguese_Portugal;</CHOICE><CHOICE>$Resources:core,Lang_Romanian_Romania;</CHOICE><CHOICE>$Resources:core,Lang_Russian_Russia;</CHOICE><CHOICE>$Resources:core,Lang_Serbian_LatinSerbia;</CHOICE><CHOICE>$Resources:core,Lang_Slovak_Slovakia;</CHOICE><CHOICE>$Resources:core,Lang_Slovenian_Slovenia;</CHOICE><CHOICE>$Resources:core,Lang_Spanish_Spain;</CHOICE><CHOICE>$Resources:core,Lang_Swedish_Sweden;</CHOICE><CHOICE>$Resources:core,Lang_Thai_Thailand;</CHOICE><CHOICE>$Resources:core,Lang_Turkish_Turkey;</CHOICE><CHOICE>$Resources:core,Lang_Ukrainian_Ukraine;</CHOICE><CHOICE>$Resources:core,Lang_Urdu_Pakistan;</CHOICE><CHOICE>$Resources:core,Lang_Vietnamese_Vietnam;</CHOICE></CHOICES><Default>$Resources:core,Lang_Default;</Default></Field><Field Name="ContactImage" ID="{7e24fdb6-8613-48f8-aec7-b76c6b1dd54d}" DisplayName="Image" Type="URL" Format="Image" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+        <ViewFields>
+          
+          
+          
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef><FieldRef Name="FirstName"></FieldRef><FieldRef Name="WorkPhone"></FieldRef><FieldRef Name="Email"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+            
+          <FieldRef Name="Title"></FieldRef><FieldRef Name="FirstName"></FieldRef></OrderBy>
+        </Query>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,All_Contacts;" DefaultView="TRUE" MobileView="True" MobileDefaultView="True" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/contacts.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">25</RowLimit>
+        <ViewFields>
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="FullName" /><FieldRef Name="JobTitle" /><FieldRef Name="LPOCompany" /><FieldRef Name="CellPhone" /><FieldRef Name="Email" /><FieldRef Name="Language" /><FieldRef Name="ContactImage" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+            
+          <FieldRef Name="Title"></FieldRef><FieldRef Name="FirstName"></FieldRef></OrderBy>
+        </Query>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+    <DefaultDescription>
+            $Resources:core,contact_list_desc;
+        </DefaultDescription>
+  </MetaData>
+</List>

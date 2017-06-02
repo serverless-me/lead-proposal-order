@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="LPOEditForm" Title="LPOEditForm-Titel" Description="LPOEditForm-Beschreibung" DefaultWidth="300" DefaultHeight="200">
+
+    <!-- Das Inhaltselement identifiziert die Position der Seite, die innerhalb des Clientwebparts gerendert wird.
+         Auf Eigenschaften wird in der Abfragezeichenfolge mithilfe des Musters _propertyName_ verwiesen.
+         Beispiel: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
+    <Content Type="html" Src="~appWebUrl/Pages/LPOEditForm.aspx?{StandardTokens}" />
+
+    <!-- Definieren Sie die Eigenschaften im Eigenschaftenelement.
+         Geben Sie den Eigenschaftennamen im src-Attribut des obigen Inhaltselements an. -->
+    <Properties>
+    </Properties>
+
+  </ClientWebPart>
+</Elements>
